@@ -42,6 +42,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Newtonsoft.Json.Bson": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[2.1.0-beta.2, )"
+            },
+            "OpenAI.ChatGPT": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "itext": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

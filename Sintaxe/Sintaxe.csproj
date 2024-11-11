@@ -10,6 +10,22 @@
     <ItemGroup>
       <Compile Remove="Program.cs" />
       <Compile Remove="Loop\ExWhile.cs" />
+      <Compile Remove="Pdf\CreatePdf.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ClosedXML" Version="0.104.1" />
+      <PackageReference Include="itext" Version="8.0.5" />
+      <PackageReference Include="itext7" Version="8.0.5" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+      <PackageReference Include="OpenAI" Version="2.1.0-beta.2" />
+      <PackageReference Include="OpenAI.ChatGPT" Version="4.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Pdf\x.pdf" />
+      <None Remove="Pdf\teste.pdf" />
     </ItemGroup>
 
 </Project>
